@@ -15,6 +15,7 @@ public class Main {
 		
 		Login newLogin = new Login();
 		newLogin.loginSequence();
+		newLogin.UserVerification();
 		
 		FantasyBook fBook1 = new FantasyBook("The Black Company", "Glen Cook", 1984, "12345");
 		FantasyBook fBook2 = new FantasyBook("The Broken Empire Trilogy", "Mark Lawrence", 2011, "62345");
@@ -31,12 +32,12 @@ public class Main {
 		listofBooks.add(fBook5);
 		
 		
-		for (int x = 0; x<listofBooks.size(); x++){
-			System.out.println(listofBooks.get(x).getName());
-			System.out.println(listofBooks.get(x).getAuthor());
-			System.out.println(listofBooks.get(x).getDate());
-			System.out.println(listofBooks.get(x).getISBN());
-		}
+			//for (int x = 0; x<listofBooks.size(); x++){
+			//System.out.println(listofBooks.get(x).getName());
+			//System.out.println(listofBooks.get(x).getAuthor());
+			//System.out.println(listofBooks.get(x).getDate());
+			//System.out.println(listofBooks.get(x).getISBN());
+		
 	}//ends main
 	
 	
