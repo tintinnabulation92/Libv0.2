@@ -17,6 +17,9 @@ public class Main {
 		newLogin.loginSequence();
 		newLogin.UserVerification();
 		
+		int localLogin = newLogin.getAccountID();
+		System.out.println("Account ID: " + localLogin);
+		
 		FantasyBook fBook1 = new FantasyBook("The Black Company", "Glen Cook", 1984, "12345");
 		FantasyBook fBook2 = new FantasyBook("The Broken Empire Trilogy", "Mark Lawrence", 2011, "62345");
 		FantasyBook fBook3 = new FantasyBook("The Chronicles of Narnia", "C.S. Lewis", 1950, "12545");
