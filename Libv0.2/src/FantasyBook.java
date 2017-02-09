@@ -4,8 +4,8 @@ public class FantasyBook extends Book{
 
 	
 	
-	public FantasyBook(String name, String author, int date, String ISBN){
-		super(name, author, date, ISBN);
+	public FantasyBook(String name, String author, String ISBN, int date){
+		super(name, author, ISBN, date);
 		}
 	
 	

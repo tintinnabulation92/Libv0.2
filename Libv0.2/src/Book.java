@@ -8,7 +8,7 @@ public abstract class Book {
 	
 	
 	
-	public Book(String name, String author, int date, String ISBN){
+	public Book(String name, String author, String ISBN, int date){
 		this.name = name;
 		this.author = author;
 		this.ISBN = ISBN;
