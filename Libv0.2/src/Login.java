@@ -19,7 +19,7 @@ public class Login {
 		login = inputLogin.nextLine();
 		System.out.print("Enter your password: ");
 		password = inputLogin.nextLine();
-		System.out.println("Ok, Login : " + login + " Pass: " + password);
+		//System.out.println("Ok, Login : " + login + " Pass: " + password);
 		
 	}
 
